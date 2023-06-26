@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left 0 top 0, right 0 bottom 0;
+    font-size: 15px;
+    font-family: 'League Spartan', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+}
+
+p{
+    line-height: 20px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.second{
+    display:grid;
+    grid-auto-flow: column;
+}
+.first-one h1{
+    width: 370px;
+}
+.first-one p{
+    width: 450px;
+    font-size: 18px;
+}
+#articleone{
+    margin-left: -40px;
+}
+#articlethree{
+    margin-left: 40px;
+}
+.second-one{
+    margin-top: 50px;
+}
+.second-one article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+    margin-top: 15px; 
+}
+.second-one article p{
+    margin-left: 30px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.second-one article span img{
+    margin-left: 10px;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+h4 article{
+    color: hsl(0, 0%, 100%);
+    
+}
+h4 span{
+color: hsl(333, 80%, 67%);
+font-weight: 400;
+    
+}
+section img{
+    width: 40px;
+    height: 40px;
+    border-radius: 1.5rem;
+    padding: 3px;
+}
+h4{
+    margin-left: 20px;
+    line-height: 20px;
+}
+#one{
+    margin-top: -80px;
+    margin-bottom: 80px;
+}
+#two{
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+#three{
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+#one,#two,#three{
+    background-color: hsl(300, 43%, 22%);
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 0.5rem;
+}
+#one p,#two p,#three p{
+    color: hsl(0, 0%, 100%);
+    width: 270px;
+    margin-top: -2px;
+}
+#two,#three{
+    margin-left: 30px;
+}
+
